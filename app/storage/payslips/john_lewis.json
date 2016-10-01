@@ -1,0 +1,23 @@
+[
+  {
+    "payPeriod": "03-2016",
+    "grossIncome": 2500,
+    "incomeTax": 187,
+    "netIncome": 2313,
+    "super": 500
+  },
+  {
+    "payPeriod": "04-2016",
+    "grossIncome": 2500,
+    "incomeTax": 187,
+    "netIncome": 2313,
+    "super": 500
+  },
+  {
+    "payPeriod": "02-2016",
+    "grossIncome": 45833,
+    "incomeTax": 18421,
+    "netIncome": 27412,
+    "super": 9167
+  }
+]

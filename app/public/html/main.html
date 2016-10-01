@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>Employee Payslips</title>
+  <link rel='stylesheet' href='/css/main.css'>
+  <script src='/js/jquery-3.0.0.min.js'></script>
+  <script src='/js/moment.js'></script>
+  <script src='/js/main.js'></script>
+</head>
+<body>
+<div id='app'>
+  <div id='inputs' class='block'>
+    <div class='input-block'>
+      <input id='firstName' type='text' placeholder='FirstName'/>
+    </div>
+    <div class='input-block'>
+      <input id='lastName' type='text' placeholder='LastName'/>
+    </div>
+    <div class='input-block'>
+      <input id='annualSalary' type='text' placeholder='AnnualSalary'/>
+    </div>
+    <div class='input-block'>
+      <input id='superRate' type='text' placeholder='SuperRate( 0 ~ 50 )'/>
+    </div>
+    <div class='input-block'>
+      <input id='payPeriod' type='date' placeholder='PayPeriod'/>
+    </div>
+    <div class='input-block'>
+      <a id='pay' href='javascript:;'>Pay</a>
+    </div>
+  </div>
+
+  <div class='clearfix'></div>
+
+  <div class='table'></div>
+
+  <div id='loading' style='display:none;'>
+    <img src="/img/loading.gif"></img>
+  </div>
+</div>
+</body>
+</html>
